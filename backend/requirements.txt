@@ -1,0 +1,34 @@
+# Core API framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+databases
+alembic
+
+# Authentication
+python-jose
+passlib[bcrypt]
+bcrypt
+python-multipart   # for file uploads
+
+# AI APIs (choose free ones)
+openai             # for OpenAI free tier
+google-generativeai # Gemini API
+transformers       # HuggingFace (local models, optional)
+
+# Reports
+reportlab          # PDF generation
+markdown2          # Convert MD to HTML/PDF
+Pillow             # Image handling (for screenshots)
+
+# Utils
+pydantic
+requests
+python-dotenv
+pydantic-settings
+
+# Testing
+pytest
+httpx
